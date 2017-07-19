@@ -4,13 +4,13 @@
  * @Email:  malbsugy@lucidya.com
  * @Filename: custom.css
  * @Last modified by:   Medhat_Albsugy
- * @Last modified time: 2017-07-20T01:04:17+02:00
+ * @Last modified time: 2017-07-20T01:33:34+02:00
  */
 
 
 
 .big_logo{
-  margin-bottom: 50px;
+  margin-bottom: 40px;
 }
 
 .mbr-arrow a:hover{
@@ -357,4 +357,7 @@ nav.navigation.posts-navigation{
 }
 .portfolio-icon:hover #envato path{
   fill: #000;
+}
+p.lead.subtitle{
+  margin-bottom: 1.5rem;
 }
