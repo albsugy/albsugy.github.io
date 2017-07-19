@@ -1,3 +1,14 @@
+/**
+ * @Author: Medhat Albsugy <Medhat_Albsugy>
+ * @Date:   2017-07-20T00:20:04+02:00
+ * @Email:  malbsugy@lucidya.com
+ * @Filename: custom.css
+ * @Last modified by:   Medhat_Albsugy
+ * @Last modified time: 2017-07-20T01:04:17+02:00
+ */
+
+
+
 .big_logo{
   margin-bottom: 50px;
 }
@@ -325,4 +336,25 @@ nav.navigation.posts-navigation{
   #menu-0 .navbar-short .current-menu-item.notsee a.link{
     color: #000000 !important;
   }
+}
+
+.portfolio-icon{
+  vertical-align: bottom;
+  margin-right: 10px;
+}
+.portfolio-icon i{padding: 14px}
+.portfolio-icon span{
+  font-weight: bold;
+  padding: 10px;
+  display: inline-block;
+}
+.portfolio-icon svg{
+  margin: 14px;
+  width: 17px;
+}
+#envato path{
+  fill: #fff;
+}
+.portfolio-icon:hover #envato path{
+  fill: #000;
 }
